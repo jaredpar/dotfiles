@@ -1,0 +1,15 @@
+[user]
+	name = Jared Parsons
+	email = jared@paranoidcoding.org
+[fetch]
+	prune = true
+[core]
+	longpaths = true
+	editor = vim
+[push]
+	default = current
+[commit]
+	gpgsign = false
+[alias]
+	assume = update-index --assume-unchanged
+	unassume = update-index --no-assume-unchanged
